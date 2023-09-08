@@ -31,20 +31,17 @@ To start using Opeico, follow these steps:
 
 ## Examples
 
-```pubc
-PubC Cefsharp
 
 # Import necessary namespaces
 IMP: N_: System
 IMP: N_: System.IO
 IMP: N_: System.Collections.Generic
 
-# Define a public class
-DOMAIN MainClass
+```pubc
+PubC MainClass
 
     # Public method
-    DOMAIN Main()
-    (
+    DOMAIN Main(
         ?{"Opeico Code Example"}@
 
         # Using Kind for equality comparison
@@ -53,10 +50,5 @@ DOMAIN MainClass
         isEqual Kind (a Kind b)
         ?{isEqual}@
     )
-License
-Opeico is released under the MIT License.
-
-Support and Contact
-For questions or assistance, open an issue in this repository.
 
 Join us on the journey to make programming more accessible and efficient with Opeico!
