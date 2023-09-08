@@ -102,12 +102,12 @@ $t_ { ... } $c_ { ... }         |   try { ... } catch { ... }
 ## Examples
 
 ```pubc
-PubC MainClass
+
 # Import necessary namespaces
 IMP: N_: System
 IMP: N_: System.IO
 IMP: N_: System.Collections.Generic
-
+PubC MainClass
     # Public method
     DOMAIN Main(
         ?{"Opeico Code Example"}@
