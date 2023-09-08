@@ -1,0 +1,21 @@
+# Define a public class
+DOMAIN MainClass
+
+    # Public method
+    DOMAIN Main(
+        ?{"Opeico RUN Example"}@
+
+        # Declare and initialize variables using RUN
+        RUN myVariable Kind 42
+        RUN message Kind "Hello, Opeico!"
+
+        # Perform operations with the variables
+        multiplied Kind myVariable * 2
+        concatenated Kind message + " Welcome to Opeico!"
+
+        # Output the results
+        ?{"myVariable: " + myVariable}@
+        ?{"message: " + message}@
+        ?{"multiplied: " + multiplied}@
+        ?{"concatenated: " + concatenated}@
+    )
