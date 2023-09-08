@@ -3,7 +3,7 @@ Opeico: A versatile programming language merging C#, Python, and R. Clean syntax
 
 # Opeico Programming Language
 
-![Opeico Logo](images/opeico-logo.png)
+![Opeico Logo](Opeico.png)
 
 Welcome to the official repository of Opeico, a versatile programming language designed to simplify coding tasks with a clean and intuitive syntax.
 
