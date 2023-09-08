@@ -53,7 +53,10 @@ To start using Opeico, follow these steps:
 
 - **Usage**: `result Kind 10 / 2`, `sum Kind a Kind b`, etc.
 - **Description**: Perform mathematical operations with ease, inspired by languages like R and Python, using standard arithmetic operators.
-
+  
+### the "RUN" Keyword
+- **Usage**: `RUN myVariable Kind 42`
+- **Description**: In Opeico, the "RUN" keyword is used for variable declaration and assignment. You can declare and initialize variables using "RUN" followed by the variable name, "Kind," and the initial value.
 
 ## Examples
 
