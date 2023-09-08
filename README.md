@@ -31,14 +31,12 @@ To start using Opeico, follow these steps:
 
 ## Examples
 
-
+```pubc
+PubC MainClass
 # Import necessary namespaces
 IMP: N_: System
 IMP: N_: System.IO
 IMP: N_: System.Collections.Generic
-
-```pubc
-PubC MainClass
 
     # Public method
     DOMAIN Main(
