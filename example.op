@@ -7,8 +7,7 @@ IMP: N_: System.Collections.Generic
 DOMAIN MainClass
 
     # Public method
-    DOMAIN Main()
-    (
+    DOMAIN Main(
         ?{"Opeico Code Example"}@
 
         # Using Kind for equality comparison
