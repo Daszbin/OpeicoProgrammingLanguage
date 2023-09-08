@@ -1,0 +1,44 @@
+# Import necessary namespaces
+IMP: N_: System
+IMP: N_: System.IO
+IMP: N_: System.Collections.Generic
+
+# Define a public class
+DOMAIN MainClass
+
+    # Public method
+    DOMAIN Main()
+    (
+        ?{"Opeico Code Example"}@
+
+        # Using Kind for equality comparison
+        a Kind 10
+        b Kind 20
+        isEqual Kind (a Kind b)
+        ?{"Is 10 equal to 20? " + isEqual}@
+
+        # Create a list of strings
+        myList Kind List<string>
+        myList.Add("Hello")
+        myList.Add("World")
+
+        # Iterate through the list
+        ?{"List elements:"}@
+        FOREACH item IN myList
+        (
+            ?{item}@
+        )
+
+        # Try-Catch block
+        $t_
+        (
+            # Code that might throw an exception
+            ?{"Trying to divide by zero"}@
+            result Kind 10 / 0
+        )
+        $c_
+        (
+            # Catch and handle the exception
+            ?{"Caught an exception: " + Exception.Message}@
+        )
+    )
