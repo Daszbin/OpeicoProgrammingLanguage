@@ -1,3 +1,6 @@
+# Import necessary namespaces
+IMP: N_: System
+IMP: N_: System.String
 # Define a public class
 PubC HelloWorld
 
