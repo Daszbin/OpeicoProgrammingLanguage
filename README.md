@@ -29,6 +29,32 @@ To start using Opeico, follow these steps:
 
 3. Join our community by contributing to the development of Opeico. Check out our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
+### Import External Libraries
+
+- **Usage**: `IMP: N_: System`, `IMP: N_: System.IO`, etc.
+- **Description**: Import external namespaces and libraries into your Opeico code, extending its functionality with predefined classes and functions.
+
+### Define Classes and Methods
+
+- **Usage**: `DOMAIN MainClass`, `DOMAIN MyMethod()`, etc.
+- **Description**: Define classes and methods as fundamental building blocks for code structure, encapsulating data and behavior.
+
+### String Manipulation
+
+- **Usage**: `?{"Hello, World!"}@`, `?{"Result: " + result}@".
+- **Description**: Easily work with text and data by using double-quoted strings and concatenating variables and expressions.
+
+### Exception Handling
+
+- **Usage**: `$t_ { ... } $c_ { ... }`.
+- **Description**: Implement robust error management with "Try" and "Catch" blocks, ensuring your code handles exceptions gracefully.
+
+### Math Integration
+
+- **Usage**: `result Kind 10 / 2`, `sum Kind a Kind b`, etc.
+- **Description**: Perform mathematical operations with ease, inspired by languages like R and Python, using standard arithmetic operators.
+
+
 ## Examples
 
 ```pubc
@@ -48,5 +74,3 @@ IMP: N_: System.Collections.Generic
         isEqual Kind (a Kind b)
         ?{isEqual}@
     )
-
-Join us on the journey to make programming more accessible and efficient with Opeico!
