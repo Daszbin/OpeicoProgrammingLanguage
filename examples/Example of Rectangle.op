@@ -1,5 +1,5 @@
 // Import necessary namespaces
-IMP: N_: System;
+IMP: N_: System
 
 // Define a private class
 PrivC CalculateRectangleArea
