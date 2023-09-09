@@ -1,0 +1,12 @@
+PubC MainClass
+    DOMAIN Main(
+        # Define the radius of the circle
+        RUN radius double = 5.0
+        
+        # Calculate the diameter
+        RUN diameter double = 2 * radius
+        
+        # Output the result
+        ?{"The diameter of the circle is: "}@
+        ?{diameter}@
+    )
