@@ -1,0 +1,7 @@
+PubC VariablesExample
+   # Public method
+   DOMAIN Main(
+       RUN x integer = 42
+       ?{x}@
+   )
+)
