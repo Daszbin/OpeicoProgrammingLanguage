@@ -13,7 +13,7 @@ namespace OpeicoCompiler.Lexer
         Kind,
         IMP,
         ConsoleWriteLine,
-        t_,
+        Try,
         Nxt,
         Brk,
         Blck,
@@ -60,7 +60,7 @@ namespace OpeicoCompiler.Lexer
         public const string Kind = "Kind";  // Data type declaration
         public const string IMP = "IMP";  // Using NamespaceName
         public const string ConsoleWriteLine = "?{\"Text\"}@";  // Console.WriteLine
-        public const string t_ = "$t_";  // try { ... } catch { ... } finally { ... }
+        public const string Try = "$t_";  // try { ... } catch { ... } finally { ... }
         public const string Nxt = "Nxt";  // Next loop iteration
         public const string Brk = "Brk";  // Break loop
         public const string Blck = "Blck";  // Define a block
@@ -106,7 +106,7 @@ namespace OpeicoCompiler.Lexer
         Kind,
         IMP,
         ConsoleWriteLine,
-        t_,
+        Try,
         Nxt,
         Brk,
         Blck,
