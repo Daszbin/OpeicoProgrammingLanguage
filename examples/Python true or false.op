@@ -1,35 +1,35 @@
-// Import necessary namespaces
+# Import necessary namespaces
 IMP: N_: System
 
-// Define a private class
+# Define a private class
 PrivC PythonBooleans
 
-    // Define the first domain
+    # Define the first domain
     DOMAIN IsTrue() => Tru
 
-    // Define the second domain
+    # Define the second domain
     DOMAIN2 IsFalse() => Fls
     
-    // Define the third domain
+    # Define the third domain
     DOMAIN3 IsEqualToTrue(bool value) => value == Tru
     
-    // Define the fourth domain
+    # Define the fourth domain
     DOMAIN4 IsEqualToFalse(bool value) => value == Fls
     
-    // Define the fifth domain
+    # Define the fifth domain
     DOMAIN5 Negate(bool value) => !value
     
-    // Define the sixth domain
+    # Define the sixth domain
     DOMAIN6 LogicalAnd(bool value1, bool value2) => value1 && value2
     
-    // Define the seventh domain
+    # Define the seventh domain
     DOMAIN7 LogicalOr(bool value1, bool value2) => value1 || value2
     
-    // Define the eighth domain
+    # Define the eighth domain
     DOMAIN8 LogicalNot(bool value) => !value
     
-    // Define the ninth domain
+    # Define the ninth domain
     DOMAIN9 LogicalXor(bool value1, bool value2) => value1 ^ value2
 
-// Create an instance of the private class
+# Create an instance of the private class
 RUN PythonBooleans python = new PythonBooleans()
