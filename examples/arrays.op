@@ -1,0 +1,6 @@
+PubC ArrayExample
+   # Public method to demonstrate arrays
+   DOMAIN Main(
+       RUN numbers[5] integer = [1, 2, 3, 4, 5]
+       ?{numbers[2]}@
+   )
