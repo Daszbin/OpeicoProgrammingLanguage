@@ -1,0 +1,9 @@
+PubC ByteArrayExample
+   # Public method to demonstrate a byte array
+   DOMAIN Main(
+       RUN byteArray[5] b+ = [65, 66, 67, 68, 69]  # Byte array with ASCII values
+
+       # Access and print elements of the byte array
+       ?{byteArray[0]}@  # Should print '65', which is the ASCII value for 'A'
+       ?{byteArray[2]}@  # Should print '67', which is the ASCII value for 'C'
+   )
