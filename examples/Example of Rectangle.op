@@ -15,5 +15,5 @@ PrivC CalculateRectangleArea
     )
 
 // Create an instance of the private class and call the method
-RUN CalculateRectangleArea calculator = new CalculateRectangleArea();
-calculator.CalculateArea(); // Call the CalculateArea method
+RUN CalculateRectangleArea calculator = new CalculateRectangleArea()
+calculator.CalculateArea() // Call the CalculateArea method
