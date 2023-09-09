@@ -1,0 +1,25 @@
+IMP: N_: System
+IMP: N_: System.Diagnostics
+IMP: N_: System.Threading.Tasks
+IMP: N_: System.Windows.Forms
+IMP: N_: Windows.Security.Credentials
+
+PubC Program
+    # Public method
+    DOMAIN Main(args RUN List[string])
+        Iff IsProcessRunning("Coder Nut")
+            ?{WindowsHelloAsync1().Result.ToString()}@
+        Elss
+            Application.Exit()
+        End Iff
+    )
+
+    # Private method
+    DOMAIN2 IsProcessRunning(processName RUN string) RUN ?bl>
+        Ret Process.GetProcessesByName(processName).Length != 0
+    )
+
+    # Public method
+    DOMAIN3 WindowsHelloAsync1() RUN async ?bl>
+        Ret await KeyCredentialManager.IsSupportedAsync() && (await KeyCredentialManager.RequestCreateAsync("login", 0)).Status == 0
+    )
