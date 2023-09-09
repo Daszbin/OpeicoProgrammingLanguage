@@ -1,0 +1,40 @@
+# Import necessary namespaces
+IMP: N_: System
+PubC MainClass
+    # Public method
+    DOMAIN Main(
+        ?{"Opeico Code Example"}@
+
+        # Function to calculate Fibonacci sequence
+        DOMAIN Fibonacci(n Kind) Kind
+            ?{n Kind <= 0}@ 0
+            ?{n Kind == 1}@ 1
+            Kind a 0
+            Kind b 1
+            Kind result 0
+
+            b Kind a + b
+            a Kind b - a
+
+            DOMAIN2 Loop(?{"Calculating Fibonacci sequence up to "}@ n)
+                a Kind a + b
+                b Kind a - b
+                n Kind n - 1
+
+                result Kind a
+            result
+            ?{result}@
+
+        # Calculate and print Fibonacci sequence
+        Kind n 10
+        DOMAIN3 FibonacciSequence(?{"Fibonacci sequence up to "}@ n)
+
+        # Using Kind for a loop
+        DOMAIN4 Loop(?{"Printing Fibonacci sequence:"}@
+            DOMAIN5 Loop2(?{Kind i 0}@ ?{i Kind < n}@)
+                ?{" "}@
+                ?{FibonacciSequence(i Kind)}@
+                i Kind i + 1
+            ?{"\n"}@
+        )
+    )
