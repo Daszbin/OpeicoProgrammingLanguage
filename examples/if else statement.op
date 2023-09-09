@@ -1,7 +1,6 @@
 PubC MainClass
     # Public method
-    DOMAIN Main()
-    (
+    DOMAIN Main(
         int a Kind 10
         int b Kind 20
         
