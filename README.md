@@ -56,7 +56,7 @@ To start using Opeico, follow these steps:
 
 1. Clone this repository.
 
-2. Explore the `docs` folder for comprehensive documentation and tutorials.
+2. Explore the `syntaxes` or `examples` folder for comprehensive documentation and tutorials.
 
 3. Join our community by contributing to the development of Opeico. Check out our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
