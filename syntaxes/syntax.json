@@ -1,7 +1,7 @@
 {
   "name": "Opeico",
   "scopeName": "source.opeico",
-  "fileTypes": ["ope"],
+  "fileTypes": ["op"],
   "patterns": [
     {
       "name": "comment.line.opeico",
