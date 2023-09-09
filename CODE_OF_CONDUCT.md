@@ -1,5 +1,7 @@
 Opeico Code of Conduct
+
 Our Pledge
+
 We, as contributors and maintainers of the Opeico programming language and its associated community, are committed to creating a welcoming and inclusive environment for everyone, regardless of age, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 Our Standards
