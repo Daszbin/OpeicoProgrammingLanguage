@@ -97,8 +97,15 @@ DOMAIN2, DOMAIN3, ...           |   Additional methods with numbers
 RUN                             |   Variable declaration and initialization
 Kind                            |   Data type declaration
 IMP: N_: NamespaceName          |   using NamespaceName
-?{"Text"}@                       |   Console.WriteLine("Text");
-$t_ { ... } $c_ { ... }         |   try { ... } catch { ... }
+?{"Text"}@                      |   Console.WriteLine("Text");
+$t_ { ... } $c_ { ... }  $f_ { ... }        |   try { ... } catch { ... } finally { ... }
+!abs~                           |   abstract
+^as                           |   as
+$Base                           |   base
+?bl>                            |   bool
+?split                          |   break
+b+                              |   byte
+
 ## Examples
 
 ```pubc
