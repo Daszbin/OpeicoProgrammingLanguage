@@ -1,0 +1,38 @@
+{
+  "name": "Opeico",
+  "scopeName": "source.opeico",
+  "fileTypes": ["ope"],
+  "patterns": [
+    {
+      "name": "comment.line.opeico",
+      "match": "#.*$"
+    },
+    {
+      "name": "constant.character.escape.opeico",
+      "match": "\\?.*?@"
+    },
+    {
+      "name": "keyword.control.opeico",
+      "match": "\\b(PubC|PrivC|InterC|ProcC|DOMAIN[0-9]*|RUN|Kind|IMP:|\\?{.*?}@|\\$[tcf]_|Nxt|Brk|Blck|Iff|Elss|Swch|Cs|Dflt|Whl|DWhl|For|Excp|\\$[cf]_|Ret|This|Base|Nl|Tru|Fls|New|As|Is|SizeOf|TypeOf|!abs~|\\^as|\\$Base|\\?bl>|\\?split|b\\+)"
+    },
+    {
+      "name": "string.quoted.double.opeico",
+      "begin": "\\?",
+      "end": "@",
+      "patterns": [
+        {
+          "name": "variable.other.opeico",
+          "match": "\\{.*?\\}"
+        }
+      ]
+    },
+    {
+      "name": "constant.numeric.opeico",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "variable.other.opeico",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    }
+  ]
+}
