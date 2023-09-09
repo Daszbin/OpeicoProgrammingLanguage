@@ -1,0 +1,24 @@
+PubC MainClass
+    DOMAIN Main(
+        # Create a 2D list (matrix)
+        RUN matrix List[List[integer]] = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ]
+        
+        # Access and print elements of the 2D list
+        ?{"2D List Elements:"}@
+        FOR i RUN integer = 0 TO matrix.Length - 1
+            FOR j RUN integer = 0 TO matrix[i].Length - 1
+                ?{matrix[i][j]}@
+            NEXT j
+        NEXT i
+        
+        # Modify an element in the 2D list
+        RUN matrix[1][1] = 42
+        
+        # Access and print the modified element
+        ?{"Modified Element:"}@
+        ?{matrix[1][1]}@
+    )
