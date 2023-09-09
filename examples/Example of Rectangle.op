@@ -1,19 +1,19 @@
-// Import necessary namespaces
+# Import necessary namespaces
 IMP: N_: System
 
-// Define a private class
+# Define a private class
 PrivC CalculateRectangleArea
-    // Define a method within the private class
+    # Define a method within the private class
     DOMAIN CalculateArea(
-        // Calculate the area of a rectangle
+        # Calculate the area of a rectangle
         RUN int length = 8;
         int width = 5;
         int area = length * width;
 
-        // Output the result
-        ?{area}@  // Output the area
+        # Output the result
+        ?{area}@  # Output the area
     )
 
-// Create an instance of the private class and call the method
+# Create an instance of the private class and call the method
 RUN CalculateRectangleArea calculator = new CalculateRectangleArea()
-calculator.CalculateArea() // Call the CalculateArea method
+calculator.CalculateArea() # Call the CalculateArea method
