@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<OutputType>Library</OutputType>
+	<TargetFramework>net7.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<IsPackable>true</IsPackable>
+	<PackageVersion>$(PackageVersion)</PackageVersion>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	  <Description>Opeico Programming Language Compiler</Description>
+	  <RepositoryUrl>https://github.com/OpeicoLang/Opeico</RepositoryUrl>
+	  <PackageProjectUrl>https://Opeicolang.com</PackageProjectUrl>
+	  <PackageIcon>logo.png</PackageIcon>
+	  <Copyright>Opeico 2022</Copyright>
+	  <RepositoryTpe>git</RepositoryTpe>
+	  <Authors>OpeicoLang</Authors>
+	  <ApplicationIcon>Opeico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Constants\**" />
+    <EmbeddedResource Remove="Constants\**" />
+    <None Remove="Constants\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Opeico.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.6.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.6.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>
