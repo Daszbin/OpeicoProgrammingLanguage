@@ -1,7 +1,7 @@
 PubC ForLoopExample
    # Public method
    DOMAIN CountToTen()
-       Whl (i RUN integer = 1) <= 10
+       Whl (i RUN int = 1) <= 10
            ?{i}@
            i = i + 1
        End Whl
