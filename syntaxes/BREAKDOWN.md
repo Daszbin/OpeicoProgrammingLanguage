@@ -135,3 +135,7 @@ This document provides a breakdown of keywords and their usage in the Opeico pro
 - **b+**:
   - byte
 
+- **#**:
+  - comment similar to //
+
+
