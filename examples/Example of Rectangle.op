@@ -6,9 +6,9 @@ PrivC CalculateRectangleArea
     # Define a method within the private class
     DOMAIN CalculateArea(
         # Calculate the area of a rectangle
-        RUN int length = 8;
-        int width = 5;
-        int area = length * width;
+        RUN int length = 8
+        int width = 5
+        int area = length * width
 
         # Output the result
         ?{area}@  # Output the area
