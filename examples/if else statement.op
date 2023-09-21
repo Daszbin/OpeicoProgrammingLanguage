@@ -1,15 +1,16 @@
 PubC MainClass
     # Public method
-    DOMAIN Main(
-        int a Kind 10
-        int b Kind 20
+    DOMAIN Main
+(
+        int a = 10
+        int b = 20
         
-        Iff (a > b)
-        (
+        Iff (a>b)
+        {
             ?{"a is greater than b"}@
-        )
+        }
         Elss
-        (
+        {
             ?("a is not greater than b"}@
-        )
+        }
     )
